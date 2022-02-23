@@ -55,7 +55,12 @@
     background-color: white;
     offset-path: var(--elliptical-path);
     offset-rotate: 0deg;
+    transition: 300ms ease-in-out;
     animation: followpath 30s linear infinite;
+  }
+
+  .circling-image:hover {
+    transform: scale(2);
   }
 
   @keyframes followpath {
